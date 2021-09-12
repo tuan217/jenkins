@@ -18,6 +18,12 @@ pipeline {
           }
         }
 
+        stage('simu') {
+          steps {
+            sh 'echo simu'
+          }
+        }
+
       }
     }
 
